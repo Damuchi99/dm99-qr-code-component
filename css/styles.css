@@ -14,10 +14,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(213, 225, 239)!important;
 }
 
+.container{
+   height: 550px;
+   width: 350px!important;
+   background-color: white;
+   border-radius: 20px;
+   padding: 0px!important;
+}
 
+.codigo-qr{
+    border-radius: 10px;
+    width: 310px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
 
+.container .descripcion{
+    padding: 30px 50px;
+}
+
+.container .descripcion h3{
+    font-weight: bold;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%)
+}
+
+.container .descripcion p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(145, 148, 157);
+}
 
 /*-------CREDITOS-------*/
 
