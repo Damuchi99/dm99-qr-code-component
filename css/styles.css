@@ -17,12 +17,12 @@ body {
     background-color: rgb(213, 225, 239)!important;
 }
 
-.container{
+.qr-container{
    height: 550px;
-   width: 350px!important;
+   width: 350px;
    background-color: white;
    border-radius: 20px;
-   padding: 0px!important;
+   padding: 0px;
 }
 
 .codigo-qr{
@@ -32,17 +32,17 @@ body {
     margin-bottom: 0px;
 }
 
-.container .descripcion{
+.qr-container .descripcion{
     padding: 30px 50px;
 }
 
-.container .descripcion h3{
+.qr-container .descripcion h3{
     font-weight: bold;
     font-size: 22px;
     color: hsl(218, 44%, 22%)
 }
 
-.container .descripcion p{
+.qr-container .descripcion p{
     font-weight: 400;
     font-size: 15px;
     color: rgb(145, 148, 157);
