@@ -18,11 +18,12 @@ body {
 }
 
 .qr-container{
-   height: 550px;
+   height: 525px;
    width: 350px;
    background-color: white;
    border-radius: 20px;
    padding: 0px;
+   margin: 30px;
 }
 
 .codigo-qr{
